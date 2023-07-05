@@ -1,0 +1,8 @@
+.DS_Store
+Payload
+packages
+*.ipa
+certs/*.pem
+certs/*.cer
+certs/*.srl
+certs/*.csr

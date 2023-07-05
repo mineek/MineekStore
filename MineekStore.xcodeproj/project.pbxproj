@@ -11,6 +11,12 @@
 		6F0C94752A55B0FE00EC1142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C94742A55B0FE00EC1142 /* ContentView.swift */; };
 		6F0C94772A55B10000EC1142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0C94762A55B10000EC1142 /* Assets.xcassets */; };
 		6F0C947A2A55B10000EC1142 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0C94792A55B10000EC1142 /* Preview Assets.xcassets */; };
+		6F0C94882A55B35200EC1142 /* Install.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C94802A55B35100EC1142 /* Install.swift */; };
+		6F0C94892A55B35200EC1142 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C94822A55B35200EC1142 /* SettingsView.swift */; };
+		6F0C948A2A55B35200EC1142 /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C94832A55B35200EC1142 /* AppsView.swift */; };
+		6F0C948B2A55B35200EC1142 /* AppsAndCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C94852A55B35200EC1142 /* AppsAndCo.swift */; };
+		6F0C948C2A55B35200EC1142 /* InfoCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C94872A55B35200EC1142 /* InfoCells.swift */; };
+		6F0C94902A55B3AC00EC1142 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6F0C948F2A55B3AC00EC1142 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		6F0C94742A55B0FE00EC1142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F0C94762A55B10000EC1142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F0C94792A55B10000EC1142 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F0C94802A55B35100EC1142 /* Install.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Install.swift; sourceTree = "<group>"; };
+		6F0C94822A55B35200EC1142 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6F0C94832A55B35200EC1142 /* AppsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
+		6F0C94852A55B35200EC1142 /* AppsAndCo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsAndCo.swift; sourceTree = "<group>"; };
+		6F0C94872A55B35200EC1142 /* InfoCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCells.swift; sourceTree = "<group>"; };
+		6F0C948D2A55B35900EC1142 /* MineekStore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MineekStore-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0C94902A55B3AC00EC1142 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				6F0C94722A55B0FE00EC1142 /* MineekStoreApp.swift */,
+				6F0C948D2A55B35900EC1142 /* MineekStore-Bridging-Header.h */,
+				6F0C94862A55B35200EC1142 /* Extra */,
+				6F0C94802A55B35100EC1142 /* Install.swift */,
+				6F0C94842A55B35200EC1142 /* Structs */,
+				6F0C94812A55B35200EC1142 /* Views */,
 				6F0C94742A55B0FE00EC1142 /* ContentView.swift */,
 				6F0C94762A55B10000EC1142 /* Assets.xcassets */,
 				6F0C94782A55B10000EC1142 /* Preview Content */,
@@ -65,6 +83,31 @@
 				6F0C94792A55B10000EC1142 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F0C94812A55B35200EC1142 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F0C94822A55B35200EC1142 /* SettingsView.swift */,
+				6F0C94832A55B35200EC1142 /* AppsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F0C94842A55B35200EC1142 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				6F0C94852A55B35200EC1142 /* AppsAndCo.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		6F0C94862A55B35200EC1142 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				6F0C94872A55B35200EC1142 /* InfoCells.swift */,
+			);
+			path = Extra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +126,9 @@
 			dependencies = (
 			);
 			name = MineekStore;
+			packageProductDependencies = (
+				6F0C948F2A55B3AC00EC1142 /* SDWebImageSwiftUI */,
+			);
 			productName = MineekStore;
 			productReference = 6F0C946F2A55B0FE00EC1142 /* MineekStore.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +157,9 @@
 				Base,
 			);
 			mainGroup = 6F0C94662A55B0FE00EC1142;
+			packageReferences = (
+				6F0C948E2A55B3AC00EC1142 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 6F0C94702A55B0FE00EC1142 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +187,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F0C94752A55B0FE00EC1142 /* ContentView.swift in Sources */,
+				6F0C948C2A55B35200EC1142 /* InfoCells.swift in Sources */,
+				6F0C94892A55B35200EC1142 /* SettingsView.swift in Sources */,
 				6F0C94732A55B0FE00EC1142 /* MineekStoreApp.swift in Sources */,
+				6F0C948A2A55B35200EC1142 /* AppsView.swift in Sources */,
+				6F0C94882A55B35200EC1142 /* Install.swift in Sources */,
+				6F0C948B2A55B35200EC1142 /* AppsAndCo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MineekStore/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,6 +329,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mineek.MineekStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MineekStore/MineekStore-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,6 +352,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MineekStore/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +360,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mineek.MineekStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MineekStore/MineekStore-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,6 +397,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F0C948E2A55B3AC00EC1142 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F0C948F2A55B3AC00EC1142 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F0C948E2A55B3AC00EC1142 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F0C94672A55B0FE00EC1142 /* Project object */;
 }
